@@ -7,14 +7,8 @@ body {
     position: relative;
     top: 115px;
 }
+
 #aboutMe img {
     width: 200px;
 }
-.collapse {
-    transition: height 0.9s ease;
-    height: 0; /* This means the element is hidden by default */
-  }
-  
-  .collapse.show {
-    height: auto; /* This means the element will take the height of its content */
-  }
+
