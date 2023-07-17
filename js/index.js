@@ -1,13 +1,8 @@
-
-  // Get the navbar element
 var navbar = document.getElementById("navbarSupportedContent");
 console.log(navbar)
-// Get the toggler button
 var toggler = document.querySelector(".navbar-toggler");
 console.log(toggler)
-// Add an event listener to the document
-document.addEventListener("click", function(event) {
-  // Check if the target element is not inside the navbar or the toggler button
+document.addEventListener("click", function (event) {
   if (!navbar.contains(event.target) && !toggler.contains(event.target)) {
     // Collapse the navbar if it is expanded
     if (navbar.classList.contains("show")) {
